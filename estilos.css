@@ -1,0 +1,63 @@
+.fondo{
+    background-color:white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#botonreset{
+background: yellow;
+color: red;
+padding: 15px;
+}
+
+
+.soyformulario{
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    background-color: tomato;
+    color: black;
+    padding: 2%;
+    margin: 10% 40%;
+    font-size: large;
+    display: block;
+}
+.texto{
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+    background-color: red;
+    margin:0% 350px;
+    padding:0%;
+    text-align: center;
+}
+.parrafo1{
+    background-color: brown;
+    display: inline-block;
+    width: 29%;
+    margin: 10px;
+    padding: 10px;
+    border-style: solid;
+    borde:1px solid;
+    border-color: red;
+    text-align: center;
+}
+.parrafo2{
+    background-color: coral;
+    display: inline-block;
+    width: 29%;
+    margin: 10px;
+    padding: 10px;
+    border-style:solid;
+    borde:1px solid ;
+    border-color:goldenrod;
+    text-align: center;
+}
+.parrafo3{
+    background-color: cornflowerblue;
+    display: inline-block;
+    width: 29%;
+    margin: 10px;
+    padding: 10px;
+    border-style:solid;
+    borde:1px solid;
+    border-color:blue;
+    text-align: center;
+}

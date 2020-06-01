@@ -1,0 +1,97 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hamburgueseria</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body class="fondo">
+    <h1 class="soyformulario">soy formulario</h1>
+    <form action="">
+        <label for="campo_nombre">Nombre</label>
+
+    <input type="text" id="campo_nombre" name= nombre placeholder="Ej: Nombre" required maxlength="15"><br><br> <!-- text: entrada tipo texto-->
+
+    <label for="campo_apellido">Apellido</label>
+
+    <input type="text" id="campo_apellido" name= apellido placeholder="Ej: Apellido" required maxlength="15"><br><br><!-- text: entrada tipo texto-->
+
+    <label for="campo_email">E-mail</label>
+
+    <input type="email" id="campo_email" name= email placeholder="Ej: email@email.com" required><br><br> <!--email: entrada tipo correo electronico-->
+
+    <label for="Packs">Packs</label>
+    
+    <select name="packs"> <!--select: nos permite seleccionar una opcion
+                               entrada de seleccion de pack para el cliente-->
+
+        <optgroup label="Ternera"> <!-- opciones de hamburguesas-->
+        <option value="pack1">hamburguesas + papas</option>
+        <option value="pack2">hambuerguesas + papas + gaseosa</option>
+        <option value="pack niño">hamburguesa + papas + jugeuete</option>
+        </optgroup>
+
+        <optgroup label="Cerdo">
+            <option value="pack3">hamburguesas + papas</option>
+            <option value="pack4">hambuerguesas + papas + gaseosa</option>
+            </optgroup>
+
+        <optgroup label="Vegetariana">
+            <option value="pack5">hamburguesas + papas</option>
+            <option value="pack6">hambuerguesas + papas + gaseosa</option>
+            </optgroup>
+            
+     </select>
+     <p><label for="topping_tomate"> Tomate
+         <input type="checkbox" id="topping_tomate" name="topping" value="tomate">
+        </label>
+     <label for="topping_lechuga"> Lechuga
+         <input type="checkbox" id="topping_lechuga" name="topping" value="lechuga">
+        </label>
+     <label for="topping_salsatavush"> Salsatavush
+         <input type="checkbox" id="topping_salsatavush" name="topping" value="salsatavush">
+        </label>
+     <label for="topping_cebollasmorada"> Cebollamorada
+         <input type="checkbox" id="topping_cebollasmorada" name="topping" value="cabollamorada">
+        </label></p>
+<p>
+    <label for="PanArabe"> PanArabe
+        <input type="radio" id="PanArabe" name="topping" value="PanArabe">
+       </label>
+    <label for="pandepapa"> Pan de papa
+        <input type="radio" id="pandepapa" name="topping" value="Pandepapa">
+       </label>
+</p><br><br>
+<label for="campopagar">Con Cuanto Paga?</label>
+<input type="number" id="campopagar" name="Con Cuanto Paga?" value="0">
+<br>
+<br>
+<label for="campocomentario">Comentrio</label><br>
+<textarea name="comentario" id="campocomentario" cols="40" rows="10" maxlength="50"></textarea>
+
+
+<br>
+<br>
+<label for="botonpedir">
+    <input type="submit" id="botonpedir" name="Enviar" value="Pedir">
+</label>
+     
+<label for="botonreset">
+    <input type="reset" id="botonreset" name="Borrar Datos" value="Borrar Datos">
+</label>
+
+    </form>
+    <p class="texto
+    ">la mejor hamburguesas<br>
+    de cba , conicidas mundialmente.</p>
+
+    <p class="parrafo1">Lorem ipsum <strong> dolor</strong> sit amet consectetur, adipisicing elit. In, nihil! Corrupti omnis, amet aspernatur, quaerat nesciunt molestias assumenda voluptatem pariatur, asperiores perspiciatis minima eos quia provident porro corporis fugit modi.</p>
+    <p class="parrafo2"><strong>Lorem</strong>  ipsum dolor sit amet consectetur, adipisicing elit. In, nihil! Corrupti omnis, amet aspernatur, quaerat nesciunt molestias assumenda voluptatem pariatur, asperiores perspiciatis minima eos quia provident porro corporis fugit modi.</p>
+    <p class="parrafo3">Lorem <strong>ipsum</strong> dolor sit amet consectetur, adipisicing elit. In, nihil! Corrupti omnis, amet aspernatur, quaerat nesciunt molestias assumenda voluptatem pariatur, asperiores perspiciatis minima eos quia provident porro corporis fugit modi.</p>
+    
+    <!--fin del formulario de pedido de packs-->
+</body>
+</html>
